@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+}
+
+@keyframes example {
+  0%   {opacity: 0.5;}
+  25%  {opacity: 0.6;}
+  50%  {opacity: 0.7;}
+  100% {opacity: 0.9;}
+}
+
+.banner-img {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.company {
+  background-color: black;
+  width: 50%
+}
+
+.nav {
+  display: flex;
+  color: white;
+  position: absolute;
+  right: 10%;
+  padding-left: 20px;
+  font-size: x-large;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.nav a:hover {
+  color: rgb(190, 113, 35);
+  text-decoration-line: underline;
+}
+
+.logo-img {
+  position: relative;
+  top: 25%;
+  left: 30%;
+}
+
+h2.tagline {
+  color: rgb(241, 228, 170);
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+  top: 25%;
+  left: 30%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.about {
+  display: flex;
+  flex: row;
+  padding: 10px;
+  background-color: rgb(228, 228, 178);
+  height: 700px;
+}
+
+p.heading {
+  color: rgb(190, 113, 35);
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  margin: 10px;
+}
+
+div.content {
+  width: 80%
+}
+
+img.profile-img {
+  border-radius: 50%;
+  margin: 70px
+}
+
+p.description {
+  color: rgb(57, 56, 56);
+  font-weight: 200;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+}
+
+p.description:hover {
+  color: rgb(68, 68, 68);
+  transition: all .2s ease-in-out;
+  transform: scale(1.05);
+}
+
+h2.selection-title {
+  color: rgb(190, 113, 35);
+  height: 100px;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+div.product-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+div.card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 25px;
+  padding: 20px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+div.card:hover {
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  transform: scale(1.05);
+}
+
+a.see-more {
+  color: rgb(190, 113, 35);
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  margin-right: 100px;
+  right: 0;
+  padding-bottom: 100px;
+}
+
+p.card-text {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 0px;
+  color: rgb(190, 113, 35);
+}
+
+p.desc {
+font-size: 17px
+}
+
+p.price {
+  font-size: 26px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  color: rgb(190, 113, 35);
+}
